@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PersonajesHijosComponent } from './personajes-hijos/personajes-hijos.component';
 import { FormsModule } from '@angular/forms';
+import { PersonajesComponent } from './personajes/personajes.component';
+import { PersonajeHijoComponent } from './personaje-hijo/personaje-hijo.component';
 
 
 
@@ -12,10 +13,13 @@ import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    PersonajesHijosComponent
+    PersonajesComponent,
+    PersonajeHijoComponent,
+
   ],
   exports:[
-    PersonajesHijosComponent
+    PersonajesComponent,
+
   ],
   imports: [
     CommonModule,

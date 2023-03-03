@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { PersonajeHijoComponent } from './personaje-hijo/personaje-hijo.component';
+import { AgregarComponent } from './agregar/agregar.component';
 
 
 
@@ -15,6 +16,7 @@ import { PersonajeHijoComponent } from './personaje-hijo/personaje-hijo.componen
   declarations: [
     PersonajesComponent,
     PersonajeHijoComponent,
+    AgregarComponent,
 
   ],
   exports:[

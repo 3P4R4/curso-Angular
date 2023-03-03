@@ -20,21 +20,7 @@ export class PersonajesComponent {
       poder: 8500
     }
   ];
-
-  nuevoPersonaje: Personaje = {
-    nombre: "",
-    poder: 0
+  agregarPersonaje(Personaje:Personaje){
+    this.personajess.push(Personaje)
   }
-
-  enviar() {
-    if (this.nuevoPersonaje.nombre.trim().length===0) {
-      return;
-    }
-   this.personajess.push(this.nuevoPersonaje)
-    this.nuevoPersonaje = {
-      nombre: "",
-      poder: 0
-    }
-  }
-
 }
